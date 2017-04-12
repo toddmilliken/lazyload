@@ -1,0 +1,12 @@
+// .babelrc
+{
+    "presets": [],
+    "env": {
+        "test": {
+            "plugins": [
+                "transform-es2015-modules-commonjs",
+                "transform-object-assign"
+            ]
+        }
+    }
+}
